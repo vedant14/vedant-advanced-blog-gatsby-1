@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Weeks by Vedant`,
-    description: `These are how my weeks roll by.`,
+    title: `Gatsby template`,
+    description: `Gatsby Template`,
     author: `Vedant Lohbare`,
   },
   plugins: [
