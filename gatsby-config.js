@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby from scratch`,
-    description: `Weibens awesome Gatsby tutorial site.`,
-    author: `@weibenfalk`,
+    title: `Weeks by Vedant`,
+    description: `These are how my weeks roll by.`,
+    author: `Vedant Lohbare`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -3,11 +3,6 @@ import { colors } from "styles/GlobalStyles"
 
 export const HeroWrapper = styled.div`
   margin: 20px 0 0 0;
-  display: none;
-
-  @media screen and (min-width: 768px) {
-    display: block;
-  }
 `
 export const TextWrapper = styled.div`
   display: flex;
@@ -21,7 +16,7 @@ export const TextWrapper = styled.div`
     font-size: 1.5rem;
     text-align: center;
     margin: 20px;
-
+    font-size: 1rem;
     @media screen and (min-width: 768px) {
       font-size: 2.8rem;
     }
@@ -29,7 +24,10 @@ export const TextWrapper = styled.div`
 
   button {
     font-family: "Muli Black", Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    @media screen and (min-width: 768px) {
+      font-size: 1rem;
+    }
     color: ${colors.white};
     text-transform: uppercase;
     background: transparent;

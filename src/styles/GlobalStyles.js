@@ -57,7 +57,7 @@ export const GlobalStyles = createGlobalStyle`
     color: ${props => props.theme.colors.textSecondary};
     font-family: "Muli Regular", Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0 20px 80px 20px;
+    padding: 0 30px 80px 30px;
     transition: all 0.5s ease;
   }
 

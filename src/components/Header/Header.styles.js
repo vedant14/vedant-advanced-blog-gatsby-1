@@ -14,9 +14,10 @@ export const Wrapper = styled.div`
 `
 
 export const Logo = styled.img`
-	max-width: 100px;
+	max-width: 150px;
 
 	@media screen and (min-width: 768px) {
-		height: 250px;
+		max-width: 350px;
+		width: 250px;
 	}
 `
